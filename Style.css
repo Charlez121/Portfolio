@@ -80,8 +80,8 @@ header {
 }
 
 .bio-img {
-    width: 300px;
-    height: 340px;
+    width: 200px;
+    height: 240px;
     object-fit: cover;
     border: 1px solid #020203;
     border-radius: 50%;
