@@ -15,38 +15,37 @@
     <header>
         <nav>
             <ul class="nav-links">
-                <li><a href="Portfolio.html" title="Home"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="Skills.html" title="Skills"><i class="fa-solid fa-lightbulb"></i></a></li>
-                <li><a href="aboutme.html" title="About"><i class="fa-solid fa-circle-info"></i></a></li>
-                <li><a href="Contact.html" title="Contact"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#home" title="Home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#skills" title="Skills"><i class="fa-solid fa-lightbulb"></i></a></li>
+            <li><a href="#about" title="About"><i class="fa-solid fa-circle-info"></i></a></li>
+            <li><a href="#contact" title="Contact"><i class="fa-solid fa-phone"></i></a></li>
             </ul>
         </nav>
         <div class="logo">CQ</div>
     </header>
 
-    <div class="header-photo">
-        <img src="IMAGES/1byb1.jpg" alt="Charles Q. Rendora" class="bio-img">
-    </div>
+    <section class="home-section" id="home">
+        <div class="header-photo">
+            <img src="IMAGES/1byb1.jpg" alt="Charles Q. Rendora" class="bio-img">
+        </div>
 
-    <div class="role-labels">
-        <span class="role-item">Junior Web Developer</span>
-        <span class="role-item">Junior Software Engineer</span>
-    </div>
+        <div class="role-labels">
+            <span class="role-item">Junior Web Developer</span>
+            <span class="role-item">Junior Software Engineer</span>
+        </div>
 
-    <p class="intro-line">
-        Hi! i'm <span class="intro-highlight">Charles Q. Rendora</span>, a Junior Web Developer
-        and Software Engineer focused on building simple, reliable, and practical web applications.
-        I'm continuously improving my skills in Java, HTML, CSS, and backend development.
-    </p>
+        <p class="intro-line">
+            Hi! i'm <span class="intro-highlight">Charles Q. Rendora</span>, a Junior Web Developer
+            and Software Engineer focused on building simple, reliable, and practical web applications.
+            I'm continuously improving my skills in Java, HTML, CSS, and backend development.
+        </p>
+    </section>
 
-    <section class="skills-section">
+    <section class="skills-section" id="skills">
         <h2 class="skills-title">Skills</h2>
 
         <div class="skills-grid">
             <div class="skill-card">
-                <video class="skill-video" loop muted playsinline>
-                    <source src="VIDEO/Download.mp4" type="video/mp4">
-                </video>
                 <i class="fa-solid fa-code skill-icon"></i>
                 <span>Java</span>
             </div>
@@ -76,6 +75,83 @@
                 <span>Git &amp; GitHub</span>
             </div>
         </div>
+    </section>
+        <section class="about-section" id="about">
+        <h2 class="about-title reveal">About Me</h2>
+
+        <p class="about-box reveal">
+            I'm <span class="intro-highlight">Charles Q. Rendora</span>, an IT graduate who enjoys
+            building simple, reliable, and practical web applications. I'm focused on Java and
+            backend development, and I'm looking for a junior role where I can keep learning
+            and contribute to a real team.
+        </p>
+
+        <div class="about-grid reveal">
+            <div class="skill-card about-card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Education</span>
+                <p class="card-note">BSIT, STI College Novaliches</p>
+            </div>
+
+            <div class="skill-card about-card">
+                <i class="fa-solid fa-bullseye"></i>
+                <span>Focus</span>
+                <p class="card-note">Java and backend development</p>
+            </div>
+
+            <div class="skill-card about-card">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Goal</span>
+                <p class="card-note">Junior developer role</p>
+            </div>
+        </div>
+
+        <p class="learning-line reveal">
+            Currently learning: <span class="intro-highlight">Spring Boot, REST APIs, MySQL</span>
+        </p>
+    </section>
+        <section class="contact-section" id="contact">
+        <h2 class="contact-title reveal">Contact</h2>
+
+        <div class="availability reveal">
+            <span class="status-dot"></span>
+            Open to junior roles
+        </div>
+
+        <p class="contact-text reveal">
+            Have a project or an opening in mind? Let's talk.
+        </p>
+
+        <div class="contact-grid reveal">
+            <div class="skill-card contact-card" id="copy-email" data-email="rendora.charles.quinisio@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+                <p class="card-note" id="email-note">Click to copy</p>
+            </div>
+
+            <a class="skill-card contact-card" href="https://github.com/yourusername" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+                <p class="card-note">@Charlez121</p>
+            </a>
+
+
+            <a class="skill-card contact-card" href="https://www.facebook.com/profile.php?id=61570694217238" target="_blank" rel="noopener">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Facebook</span>
+                <p class="card-note">/Charles Rendora</p>
+            </a>
+        </div>
+
+        <a class="cv-btn reveal" href="CV/Rendora-Charles-Resume.pdf" download>
+            <i class="fa-solid fa-download"></i> Download CV
+        </a>
+
+        <footer class="contact-footer">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i> Back to top</a>
+            <span>·</span>
+            <span>© 2026 Charles Q. Rendora</span>
+        </footer>
     </section>
 
     <script src="backend.js"></script>
